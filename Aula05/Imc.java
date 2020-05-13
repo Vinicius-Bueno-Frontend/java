@@ -11,7 +11,7 @@ public class Imc {
 		//objeto leitor (usado para capturar dados)
 		Scanner leitor = new Scanner(System.in);
 		//objeto formatador (usado para formatar o resultado)
-		DecimalFormat formatador = new DecimalFormat("0.00");
+		DecimalFormat formatador = new DecimalFormat("0.0");
 		System.out.println("Cálculo do IMC");
 		//entrada
 		System.out.print("Peso: ");
