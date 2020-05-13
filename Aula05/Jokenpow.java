@@ -2,6 +2,12 @@ package exercicios;
 
 import java.util.Scanner;
 
+/**
+ *
+ * @author Vinicius Bueno Silva
+ *
+ */
+
 public class Jokenpow {
 
 	public static void main(String[] args) {
