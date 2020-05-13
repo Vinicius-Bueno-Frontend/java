@@ -21,7 +21,7 @@ public class Imc {
 		//processamento
 		imc = peso / (altura * altura);
 		//saida
-		System.out.println("Média: " + formatador.format(imc));
+		System.out.println("IMC: " + formatador.format(imc));
 		if (imc < 18.5) {
 			System.out.println("Abaixo do peso");
 		} else if (imc >= 18.5 && imc <= 24.9 ) {
