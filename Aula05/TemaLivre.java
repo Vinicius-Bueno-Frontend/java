@@ -2,6 +2,12 @@ package exercicios;
 
 import java.util.Scanner;
 
+/**
+ *
+ * @author Vinicius Bueno Silva
+ *
+ */
+
 public class TemaLivre {
 
 	public static void main(String[] args) {
@@ -13,42 +19,42 @@ public class TemaLivre {
 		System.out.println("Executado por Gabriel Costa e Vinicius Bueno");
 		System.out.println("");
 		System.out.println("O jogo consiste em adivinhar um par de frutas. Todos os jogadores"
-				+ " possuem 2 chances, cada 'virada' de carta é descontado de suas chances."
+				+ " possuem 2 chances, cada 'virada' de carta Ã© descontado de suas chances."
 				+ " Quem encontrar o par primeiro ganha.");
 		System.out.println("");
-		System.out.println("As frutas que estão no jogo são: Banana, Morango, Abacaxi, Cereja,"
-				+ " Kiwi, Laranja, Maçã e Uva.");
+		System.out.println("As frutas que estÃ£o no jogo sÃ£o: Banana, Morango, Abacaxi, Cereja,"
+				+ " Kiwi, Laranja, MaÃ§Ã£ e Uva.");
 		System.out.println("");
-		System.out.println("Digite um número entre 1 e 8: ");
+		System.out.println("Digite um nÃºmero entre 1 e 8: ");
 		primeiraJogada = leitor.nextInt();
 		System.out.println("");
 		switch (primeiraJogada) {
 		case 1:
-			System.out.println("Você escolheu Banana");
+			System.out.println("VocÃª escolheu Banana");
 			break;
 		case 2:
-			System.out.println("Você escolheu Morango");
+			System.out.println("VocÃª escolheu Morango");
 			break;
 		case 3:
-			System.out.println("Você escolheu Abacaxi");
+			System.out.println("VocÃª escolheu Abacaxi");
 			break;
 		case 4:
-			System.out.println("Você escolheu Cereja");
+			System.out.println("VocÃª escolheu Cereja");
 			break;
 		case 5:
-			System.out.println("Você escolheu Kiwi");
+			System.out.println("VocÃª escolheu Kiwi");
 			break;
 		case 6:
-			System.out.println("Você escolheu Laranja");
+			System.out.println("VocÃª escolheu Laranja");
 			break;
 		case 7:
-			System.out.println("Você escolheu Maçã");
+			System.out.println("VocÃª escolheu MaÃ§Ã£");
 			break;
 		case 8:
-			System.out.println("Você escolheu Uva");
+			System.out.println("VocÃª escolheu Uva");
 			break;
 		default:
-			System.out.println("NÚMERO INVÁLIDO! Comece de novo.");
+			System.out.println("NÃšMERO INVÃLIDO! Comece de novo.");
 			break;
 		}
 		
@@ -57,37 +63,37 @@ public class TemaLivre {
 		}
 
 		System.out.println("");
-		System.out.println("Digite outro número entre 9 e 16: ");
+		System.out.println("Digite outro nÃºmero entre 9 e 16: ");
 		segundaJogada = leitor.nextInt();
 		System.out.println("");
 		
 		switch (segundaJogada) {
 		case 9:
-			System.out.println("Você escolheu Morango");
+			System.out.println("VocÃª escolheu Morango");
 			break;
 		case 10:
-			System.out.println("Você escolheu Uva");
+			System.out.println("VocÃª escolheu Uva");
 			break;
 		case 11:
-			System.out.println("Você escolheu Banana");
+			System.out.println("VocÃª escolheu Banana");
 			break;
 		case 12:
-			System.out.println("Você escolheu Cereja");
+			System.out.println("VocÃª escolheu Cereja");
 			break;
 		case 13:
-			System.out.println("Você escolheu Abacaxi");
+			System.out.println("VocÃª escolheu Abacaxi");
 			break;
 		case 14:
-			System.out.println("Você escolheu Laranja");
+			System.out.println("VocÃª escolheu Laranja");
 			break;
 		case 15:
-			System.out.println("Você escolheu Kiwi");
+			System.out.println("VocÃª escolheu Kiwi");
 			break;
 		case 16:
-			System.out.println("Você escolheu Maçã");
+			System.out.println("VocÃª escolheu MaÃ§Ã£");
 			break;
 		default:
-			System.out.println("NÚMERO INVÁLIDO! Comece de novo. ");
+			System.out.println("NÃšMERO INVÃLIDO! Comece de novo. ");
 			break;
 		}
 		if (segundaJogada < 9 || segundaJogada > 16 ) {
@@ -95,7 +101,7 @@ public class TemaLivre {
 		}
 			
 		if ( primeiraJogada == 1 && segundaJogada == 11 || primeiraJogada == 2 && segundaJogada == 9 || primeiraJogada == 3 && segundaJogada == 13 || primeiraJogada == 4 && segundaJogada == 12 || primeiraJogada == 5 && segundaJogada == 15 || primeiraJogada == 6 && segundaJogada == 14 || primeiraJogada == 7 && segundaJogada == 16 || primeiraJogada == 8 && segundaJogada == 10) {
-				System.out.println("Você VENCEU!");
+				System.out.println("VocÃª VENCEU!");
 				System.exit(0);
 		} 
 		
@@ -123,7 +129,7 @@ public class TemaLivre {
 			System.out.println("O Computador escolheu Laranja");
 			break;
 		case 7:
-			System.out.println("O Computador escolheu Maçã");
+			System.out.println("O Computador escolheu MaÃ§Ã£");
 			break;
 		case 8:
 			System.out.println("O Computador escolheu Uva");
@@ -155,7 +161,7 @@ public class TemaLivre {
 		System.out.println("O Computador escolheu Kiwi");
 		break;
 	case 16:
-		System.out.println("O Computador escolheu Maçã");
+		System.out.println("O Computador escolheu MaÃ§Ã£");
 		break;
 	} 
 		
@@ -163,7 +169,7 @@ public class TemaLivre {
 		System.out.println("");
 		if ( computador == 1 && computador2 == 11 || computador == 2 && computador2 == 9 || computador == 3 && computador2 == 13 || computador == 4 && computador2 == 12 || computador == 5 && computador2 == 15 || computador == 6 && computador2 == 14 || computador == 7 && computador2 == 16 || computador == 8 && computador2 == 10) {
 			System.out.println("Computador VENCEU!");
-			System.out.println("Você PERDEU!");
+			System.out.println("VocÃª PERDEU!");
 		} else {
 			System.out.println("Os dois PERDERAM! Tente novamente.");
 		}
