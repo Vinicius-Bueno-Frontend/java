@@ -7,7 +7,7 @@ public class Imc {
 
 	public static void main(String[] args) {
 		//variaveis
-		double peso, altura, media;
+		double peso, altura, imc;
 		//objeto leitor (usado para capturar dados)
 		Scanner leitor = new Scanner(System.in);
 		//objeto formatador (usado para formatar o resultado)
@@ -19,18 +19,18 @@ public class Imc {
 		System.out.print("Altura: ");
 		altura = leitor.nextDouble();
 		//processamento
-		media = peso / (altura * altura);
+		imc = peso / (altura * altura);
 		//saida
-		System.out.println("Média: " + formatador.format(media));
-		if (media < 18.5) {
+		System.out.println("Média: " + formatador.format(imc));
+		if (imc < 18.5) {
 			System.out.println("Abaixo do peso");
-		} else if (media >= 18.5 && media <= 24.9 ) {
+		} else if (imc >= 18.5 && imc <= 24.9 ) {
 			System.out.println("Peso normal");
-		} else if (media >= 25 && media <= 29.9 ) {
+		} else if (imc >= 25 && imc <= 29.9 ) {
 			System.out.println("Sobrepeso");
-		} else if (media >= 30 && media <= 34.9 ) {
+		} else if (imc >= 30 && imc <= 34.9 ) {
 			System.out.println("Obesidade grau 1");
-		} else if (media >= 35 && media <= 39.9 ) {
+		} else if (imc >= 35 && imc <= 39.9 ) {
 			System.out.println("Obesidade grau 2 (severa)");
 		} else {
 			System.out.println("Obesidade grau 3(mórbida)");
