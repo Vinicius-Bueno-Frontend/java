@@ -3,6 +3,12 @@ package imc;
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
+/**
+ *
+ * @author Vinicius Bueno Silva
+ *
+ */
+
 public class Imc {
 
 	public static void main(String[] args) {
