@@ -11,8 +11,8 @@ public class Imc {
 		//objeto leitor (usado para capturar dados)
 		Scanner leitor = new Scanner(System.in);
 		//objeto formatador (usado para formatar o resultado)
-		DecimalFormat formatador = new DecimalFormat("0.0");
-		System.out.println("Cálculo do IMC");
+		DecimalFormat formatador = new DecimalFormat("0.00");
+		System.out.println("CÃ¡lculo do IMC");
 		//entrada
 		System.out.print("Peso: ");
 		peso = leitor.nextDouble();
@@ -21,7 +21,7 @@ public class Imc {
 		//processamento
 		media = peso / (altura * altura);
 		//saida
-		System.out.println("Média: " + formatador.format(media));
+		System.out.println("MÃ©dia: " + formatador.format(media));
 		if (media < 18.5) {
 			System.out.println("Abaixo do peso");
 		} else if (media >= 18.5 && media <= 24.9 ) {
@@ -33,7 +33,7 @@ public class Imc {
 		} else if (media >= 35 && media <= 39.9 ) {
 			System.out.println("Obesidade grau 2 (severa)");
 		} else {
-			System.out.println("Obesidade grau 3(mórbida)");
+			System.out.println("Obesidade grau 3(mÃ³rbida)");
 		}
 		
 		leitor.close();
