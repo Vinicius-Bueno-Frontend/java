@@ -1,0 +1,96 @@
+@charset "utf-8";
+
+body{
+	font-family: 'Varela Round', sans-serif;
+}
+
+/* BOTÕES */
+ 
+.BotãoIndex1{
+	text-decoration: none;
+	background-color: black;
+	color: lightgreen;
+	border-radius: 25px;
+	cursor: pointer;
+	padding: 10px;
+	margin:10px;
+	font-family: 'Montserrat', sans-serif;
+	
+}
+
+.BotãoIndex2{
+	text-decoration: none;
+	background-color: black;
+	color: lightblue;
+	border-radius: 25px;
+	cursor: pointer;
+	padding: 10px;
+	margin:15px;
+	font-family: 'Montserrat', sans-serif;
+	
+}
+
+.BotãoNovo{
+	text-decoration: none;
+	text-align: center;
+	background-color: black;
+	color: white;
+	border-radius: 25px;
+	cursor: pointer;
+	padding: 10px;
+	margin:15px;
+	font-family: 'Montserrat', sans-serif;
+	
+}
+
+.BotaoModificar{
+	text-decoration: none;
+	background-color: #66bbff;
+	padding: 5px 10px 5px 10px;
+	color: #ffffff;
+	border-radius: 5px;
+	cursor: pointer;
+	margin: 5px;
+}
+
+#botaodelete{
+	text-decoration: none;
+	background-color: #ff0000;
+	padding: 5px 10px 5px 10px;
+	color: #ffffff;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-left: 5px;
+}
+
+.Caixa1{
+	width: 320px;
+	margin-bottom: 10px;
+	padding: 5px;
+	border-radius: 5px;
+	border: 1px solid  black;
+}
+
+/* TABELA */
+
+th{
+	border: 1px solid #dddddd;
+	background-color: black;
+	text-align: center;
+	color: #ffffff;
+	padding: 10px;
+	
+}
+
+.td{
+	border: 1px solid #dddddd;
+	padding: 8px;
+	text-align: center;
+	
+}
+
+.td2{
+	border: 1px solid #dddddd;
+	padding: 8px;
+	text-align: center;
+}
